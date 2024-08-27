@@ -1,0 +1,49 @@
+/* Header.css */
+
+/* Hide the dropdown menu by default */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    min-width: 10rem;
+    z-index: 1000; /* Ensure the dropdown appears above other content */
+  }
+  
+  /* Show the dropdown menu when the parent is hovered */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Add spacing and styling to dropdown items */
+  .dropdown-item {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: block;
+    color: #212529;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  /* Align dropdowns under their parent links */
+  .dropdown {
+    position: relative;
+  }
+  
+  /* Additional styling for the header and navigation */
+  .nav-link {
+    cursor: pointer;
+    position: relative;
+    padding: 0.5rem 1rem;
+  }
+  
+  .dropdown-menu li {
+    list-style: none;
+  }
+  
